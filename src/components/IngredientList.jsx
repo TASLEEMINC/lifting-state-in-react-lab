@@ -1,5 +1,7 @@
 // src/components/IngredientList.jsx
 const IngredientList = ({ ingredients, addToBurger }) => {
+
+  
   return (
     <ul>
       {ingredients.map((ingredient, index) => (

@@ -1,5 +1,7 @@
 // `src/components/BurgerStack.jsx`
 const BurgerStack = ({ stack, removeFromBurger }) => {
+
+  
   return (
     <ul>
       {stack.length === 0 ? (
